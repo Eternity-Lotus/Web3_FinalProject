@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Connect 4</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Connect Four</h1>
+    </header>
+    <section class="section">
+        <div class="section-message"></div>
+        <canvas class="section-canvas"></canvas>
+    </section>
+
+    <div class="mode">
+        <div class="mode-chooser">
+            <h1>Connect Four</h1>
+            <p>Welcome to the game of Connect Four!<br /></p>
+            <h2>Choose a mode!</h2>
+            <label><input class="mode-chooser-input" type="radio" name="mode" value="offline-ai" checked>Human player vs AI player</label><br />
+            <label><input class="mode-chooser-input" type="radio" name="mode" value="offline-human">Human player vs human player</label><br />
+            <p>Don't know how to play? <a href="https://en.wikipedia.org/wiki/Connect_Four">Use this link to learn how!</a></p>
+            <button class="mode-chooser-submit">Start game</button>
+        </div>
+    </div>
+    <div class="message hidden">
+        <div class="message-body">
+            <div class="message-body-content"></div>
+            <button class="message-body-dismiss">OK</button>
+        </div>
+    </div>
+    <!--script will go here -->
+    <script src="Connect4Game/GameBase.js"></script>
+</body>
+
+</html>
