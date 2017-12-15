@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("es6-promise/auto");
-var Game = require("./game");
+var Game = require("./games");
 var board_1 = require("./board");
 document.addEventListener('DOMContentLoaded', function() {
     var canvas = document.querySelector('canvas');
     if (!canvas) {
         console.error('Canvas DOM is null');
         return;
-    }
+    } //prevents using an element that isn't canvas
     var board = new board_1.Board(canvas);
     board.render();
     var modeChooser = document.querySelector('.mode-chooser-submit');

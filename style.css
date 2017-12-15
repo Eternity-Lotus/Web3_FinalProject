@@ -20,7 +20,8 @@ body {
     padding: 0;
     text-align: center;
     font-family: system-font;
-    color: #111;
+    color: goldenrod;
+    background-color: black;
 }
 
 button {
@@ -31,6 +32,10 @@ button {
     border-radius: 6px;
     border: 1px solid #76c9eb;
     background: #96d2eb;
+}
+
+canvas {
+    background-color: white;
 }
 
 button:hover {
