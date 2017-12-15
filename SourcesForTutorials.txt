@@ -4,15 +4,16 @@ https://www.npmjs.com/package/js.utils <--- Utils
 http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/ <--- More on Utils
 
 What I learned from these is how to begin the implementing of the AI and the game. 
+The videos gave me the basic idea of where to begin with implementing these files.
 In addition, the Utils links were what allowed me to learn about how to implement the items like the animation
 frames as well as callbacks. Callbacks were especially important in this because 
 there were a lot of variables that needed to be passed as arguments in functions.
 
 https://stackoverflow.com/questions/21063587/what-is-index-js-typically-used-for-in-node-js-projects
 I mainly referenced this for my index files. These were important as they would allow the files to be linked
-together when putting it all together. See, making an index.js file is important you can then check specific
-files, but you can also check entire directories. By making the index.js file, you enable the the entire
-directory to be able to be looked at. This file is what links them all for usage in the FinalGame file.
+together when putting it all together. See, making an index.js file is important as you can then check not only 
+specific files, but you can also check entire directories. By making the index.js file, you enable the the entire
+directory to be able to be referenced all at once. This file is what links them all for usage in the FinalGame file.
 
 https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file
 I used this as a reference to begin my general exporting of these javascript files. Since all the files were necessary
@@ -28,4 +29,5 @@ would not be able to play the game at all. The trees further down in the page he
 I'd be able to implement this game.
 
 I hope this is enough information to explain the functionality within these files. Outside of that,
-quite a bit of the code in FinalGame is used from the other files. 
+quite a bit of the code in FinalGame is used from the other files. It was necessary to allow it to function.
+Without it, the user would be locked in the mode select screen, unable to play any Connect Four with this. 
